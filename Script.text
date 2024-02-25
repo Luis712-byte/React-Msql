@@ -1,0 +1,10 @@
+Acceder al entorno del contenedor y realizar tareas de administración, configuración o diagnóstico.
+docker exec -it mysql bash
+
+Indica que se te pedirá ingresar la contraseña. Después de ejecutar este comando, se te solicitará que ingreses la contraseña de MySQL para el usuario root.
+mysql -u root --password
+
+Proporciona información como el ID del contenedor, el nombre, el estado y los puertos mapeados.
+docker ps
+
+https://hub.docker.com/_/mysql/
